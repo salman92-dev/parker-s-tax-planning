@@ -28,7 +28,7 @@ const features = [
 
 const CoreFeatures = () => {
   return (
-    <div className="bg-[#083630] text-white px-6 py-16 rounded-3xl mb-3">
+    <div className="bg-[#083630] text-white px-6 py-16 rounded-3xl mb-3" id="features">
       {/* Heading */}
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}

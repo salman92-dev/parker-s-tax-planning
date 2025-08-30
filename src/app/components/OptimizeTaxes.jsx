@@ -6,7 +6,7 @@ const OptimizeTax = () => {
   return (
     <section
       className="bg-[#1F514A] text-white px-6 py-8 md:py-16 rounded-3xl mb-3"
-    >
+    id="pricing">
       <div className="text-center max-w-2xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}

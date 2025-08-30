@@ -50,7 +50,7 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <div className="bg-[#EFEEEB] text-white py-16 rounded-3xl mb-3">
+    <div className="bg-[#EFEEEB] text-white py-16 rounded-3xl mb-3" id="testimonials">
       {/* Heading + Subheading */}
       <div className="text-center max-w-2xl mx-auto mb-16">
         <motion.h2

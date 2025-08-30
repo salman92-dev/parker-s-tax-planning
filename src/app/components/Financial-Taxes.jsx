@@ -19,7 +19,7 @@ const features = [
 
 const FinancialTax = () => {
   return (
-    <div className="bg-[#EFEEEB] text-white px-6 py-16 rounded-3xl mb-3">
+    <div className="bg-[#EFEEEB] text-white px-6 py-16 rounded-3xl mb-3" id="what-we-do">
       {/* Heading */}
       <motion.div
         initial={{ opacity: 0,filter :'blur(12px)',  y: 40 }}
