@@ -70,8 +70,8 @@ const Testimonials = () => {
           viewport={{ once: true }}
           className="text-[#111]/50 inter-r text-lg md:px-30"
         >
-          Our users love how Advisora Template simplifies their processes and
-          streamlines operations
+          Our users love how Parker's tax Planning simplifies their 
+          tax mitigation strategies.
         </motion.p>
       </div>
 
