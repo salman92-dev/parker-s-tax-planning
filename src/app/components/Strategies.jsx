@@ -8,7 +8,7 @@ const Strategies = () => {
       
       {/* Heading with scroll-triggered animation */}
       <motion.h2
-        className="text-center text-black inter-m text-2xl md:text-5xl md:px-28 !leading-[120%]"
+        className="text-center text-black inter-m text-2xl md:text-5xl md:px-28 !leading-[140%]"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.5 }} // triggers when 50% is in view

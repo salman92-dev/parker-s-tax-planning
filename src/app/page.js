@@ -10,7 +10,7 @@ import OptimizeTax from "./components/OptimizeTaxes";
 import Footer from "./components/Footer";
 export default function Home() {
   return (
-    <div className="2xl:container px-3">
+    <div className="2xl:container px-3 overflow-hidden">
       <Navbar />
       <HeroSection />
       <Strategies />

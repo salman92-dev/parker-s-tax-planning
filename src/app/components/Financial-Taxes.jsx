@@ -25,15 +25,15 @@ const FinancialTax = () => {
         initial={{ opacity: 0,filter :'blur(12px)',  y: 40 }}
         whileInView={{ opacity: 1, filter :'blur(0px)', y: 0 }}
         transition={{ duration: 0.6 }}
-        viewport={{ once: true, amount: 0.2 }}
+        viewport={{ once: false, amount: 0.2 }}
         className="text-center max-w-3xl mx-auto mb-12"
       >
         <h2 className="satoshi-m text-black text-3xl md:text-5xl mb-4 !leading-[120%]">
-          Empowering and strengthening your financial taxes
+          Empowering and strengthening your tax strategy
         </h2>
         <p className="text-black satoshi-r text-lg md:px-8">
-          Our platform provides advanced tools and insights to help you manage,
-          grow, and secure your taxes.
+          Our platform provides advanced tools and insights to help you 
+          save on taxes so you can grow wealth
         </p>
       </motion.div>
 
