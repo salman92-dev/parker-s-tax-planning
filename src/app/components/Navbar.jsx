@@ -18,7 +18,7 @@ export default function Navbar() {
       <div className="md:px-8 px-4 py-3 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="text-2xl satoshi-b text-black">
-          Parker’s tax planning
+          Parker’s tax Planning
         </Link>
 
         {/* Desktop Menu */}
