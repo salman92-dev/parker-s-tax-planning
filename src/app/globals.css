@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: #DAD6C9;
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+  font-family: satoshi-b;
+  src: url(/satoshi/Satoshi-Bold.otf);
+}
+.satoshi-b {
+  font-family: satoshi-b;
+}
+@font-face {
+  font-family: satoshi-m;
+  src: url(/satoshi/Satoshi-Medium.otf);
+}
+.satoshi-m {
+  font-family: satoshi-m;
+}
+
+@font-face {
+  font-family: satoshi-r;
+  src: url(/satoshi/Satoshi-Regular.otf);
+}
+.satoshi-r {
+  font-family: satoshi-r;
+}
+
+
+@font-face {
+  font-family: inter-m;
+  src: url(/inter/Inter-Medium.otf);
+}
+.inter-m {
+  font-family: inter-m;
+}
