@@ -8,9 +8,10 @@ import CoreFeatures from "./components/Core-Features";
 import Testimonials from "./components/Testimonials";
 import OptimizeTax from "./components/OptimizeTaxes";
 import Footer from "./components/Footer";
+
 export default function Home() {
   return (
-    <div className="2xl:container px-3 overflow-hidden">
+    <div className="2xl:container mx-auto px-3 overflow-hidden">
       <Navbar />
       <HeroSection />
       <Strategies />
